@@ -1,0 +1,30 @@
+.seasonlist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+.product_list_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 290px));
+  gap: 2rem;
+}
+
+.product_list_container a {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-row: 1 / span 5;
+  gap: inherit;
+}
+
+.discount {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
